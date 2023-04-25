@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="scss/chat.scss">
+    <link rel="stylesheet" href="dropdown.scss">
+    <script src="https://kit.fontawesome.com/2c5fee58f9.js" crossorigin="anonymous"></script>
+    <title>Chat</title>
+</head>
+<body>
+    <div id="main-bar" class="chat-main-bar"> <!--Includes logo and menu button-->
+        <div class="chat-__logo-container">
+            <img src="/img/Final-LogoV2-Black.png" alt="logo">
+        </div>
+        <div class="dropdown">
+    <button onclick="myFunction()" class="dropbtn"><i class="fa fa-bars"></i></button>
+    <div id="myDropdown" class="dropdown-content">
+      <a href="#"><img src="img/close-icon.png" alt=""></a>
+      <a href="#Search"><img src="img/search.png" alt=""></a>
+      <a href="home-page.html"><img src="img/home.png" alt=""></a>
+      <a href="inbox_user.html"><img src="img/chat.png" alt=""></a>
+      <a href="profile-page.html"><img src="img/account.png" alt=""></a>
+    </div>
+        </div>
+    </div> 
+    <div id="top-bar" class="chat-top-bar"> <!--Includes back button Title and Add conversation-->
+        <div class="__back-button">
+            <object data="img/back-button-svgrepo-com.svg" width="30px" height="30px"></object>
+        </div>
+        <div class="chat-user-picture">
+            <object data="img/Horizon_icon.png" width="52px" height="39px"></object>
+        </div>
+        <div class="username">
+            <h2 class="title">Horizon Studio</h2>
+        </div>
+    </div> 
+    <div class="chat-section">
+        <div class="message">
+            <object class="chat-user-picture" data="img/Horizon_icon.png" width="52px" height="39px"></object>
+            <div class="message-content">
+                <div class="message-bubble">
+                    <p>
+                        Hi! We really liked your profile!
+                    </p>
+                </div>
+
+                <div class="message-bubble">
+                    <p>
+                        Also we downloaded your CV and we want to schedule a video meeting if you are interested!
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="chat-bottom-bar">
+
+            <object data="img/file-attachment-02-svgrepo-com.svg" width="30px" height="30px"></object>
+            <object data="img/image-03-svgrepo-com.svg" width="30px" height="30px"></object>
+            <object data="img/microphone-01-svgrepo-com.svg" width="30px" height="30px"></object>
+    
+            <div class="message-wrapper">
+            <div class="message-text" contentEditable></div>
+            </div>
+        </div>
+    <script src="./dropdown.js"></script>
+</body>
+</html>

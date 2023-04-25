@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confido</title>
+    <link rel="stylesheet" href="home-page.scss">
+    <link rel="stylesheet" href="dropdown.scss">
+    <link rel="stylesheet" href="general.css">
+    <script src="https://kit.fontawesome.com/eca2c4fa11.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="logo"><img src="/img/Student/Final-Logo-Black.png" alt=""></div>
+
+        <!--<a href="#" class="menu-icon" onclick="menuToggle()"><i class="fa fa-bars"></i></a>-->
+    <div class="dropdown">
+    <button onclick="myFunction()" class="dropbtn"><i class="fa fa-bars"></i></button>
+    <div id="myDropdown" class="dropdown-content">
+      <a href="#"><img src="img/close-icon.png" alt=""></a>
+      <a href="#Search"><img src="img/search.png" alt=""></a>
+      <a href="home-page.html"><img src="img/home.png" alt=""></a>
+      <a href="inbox_user.html"><img src="img/chat.png" alt=""></a>
+      <a href="profile-page.html"><img src="img/account.png" alt=""></a>
+    </div>
+</div>
+    </nav>
+
+
+    
+    <button class="back-button" onclick="history.back()" ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+        <path d="M360 224L272 224v-56c0-9.531-5.656-18.16-14.38-22C248.9 142.2 238.7 143.9 231.7 
+        150.4l-96 88.75C130.8 243.7 128 250.1 128 256.8c.3125 7.781 2.875 13.25 7.844 17.75l96 87.25c7.031 
+        6.406 17.19 8.031 25.88 4.188s14.28-12.44 14.28-21.94l-.002-56L360 288C373.3 288 384 277.3 384 264v-16C384 
+        234.8 373.3 224 360 224zM256 0C114.6 0 0 114.6 0 256s114.6 256 256 256s256-114.6 256-256S397.4 0 256 0zM256 
+        464c-114.7 0-208-93.31-208-208S141.3 48 256 48s208 93.31 208 208S370.7 464 256 464z"/></svg>
+    </button>
+
+    <main>
+
+        <div class="hero-image"><img src="/img/Student/undraw_Work_time_re_hdyv 1.png" alt=""></div>
+        <img class="blob" src="/img/Student/Blob-Pink.png" alt="">
+        <div class="ellipse-up"><img src="/img/Student/Ellipse-Up.png" alt=""></div>
+        <div class="ellipse-bot"><img src="/img/Student/Ellipse-Bot.png" alt=""></div>
+
+        <div class="company-description">
+            
+            <div class="company-logo">
+                <img src="/img/Student/logo.png" alt="" id="company-image">
+            </div>
+
+            <h2 id="CompanyName">LiveWall</h2>
+
+            <h3 id="Job">Student Developer</h3>
+            <h5 id="Salary">1200 euro per month</h5>
+            <p id="Description">LiveWall is a creative media agency that provides students and recent graduates with the opportunity 
+                to work at a creative, digital agency. Here they can be a developer for the most exciting brand and companies. 
+                Here at LiveWall you will develop abilities to advance in your developer career.
+            </p>
+
+            <div class="job-checklist">
+                <div class="col-2">
+                    <img src="/img/Student/check-darker.png" alt="">
+                    <p id="job-check1">Good communicaiton skills</p>
+                </div>
+                <div class="col-2">
+                    <img src="/img/Student/check-darker.png" alt="">
+                    <p id="job-check2">Fluent in English</p>
+                </div>
+                <div class="col-2">
+                    <img src="/img/Student/check-darker.png" alt="">
+                    <p id="job-check3">Intermediate experience in HTML, CSS an JS </p>
+                </div>
+                <div class="col-2">
+                    <img src="/img/Student/check-darker.png" alt="">
+                    <p id="job-check4">Ability to cooperate with team members</p>
+                </div>
+                <div class="col-2">
+                    <img src="/img/Student/check-darker.png" alt="">
+                    <p id="job-check5">Studying or finished a ICT related higher education degree</p>
+                </div>
+            </div>
+            <div class="intro-video">
+                <video width="90%" height="240" controls src="https://www.youtube.com/watch?v=MRH2iHOTurg"></video>
+            </div>
+        </div>
+    </main>
+
+        <div class="upOverlay" id="upOverlay"> 
+
+        </div>
+        <div class="upOverlay2" id="upOverlay2"> 
+
+        </div>
+        <script src="swipe.js"></script>
+        <script src="dropdown.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+.profile-image{
+    position: absolute;
+    z-index: -1;
+    top: 60px;
+}
+
+.profile-image img{
+    width: 100%;
+}
+
+.blob{
+    position: absolute;
+    z-index: -2;
+    top: 200px;
+    width: 100%;
+    height: auto;
+}
+
+.blob img{
+    width: 100%;
+    height: auto;
+}
+
+.ellipse-up{
+    position: absolute;
+    z-index: -1;
+    top: 400px;
+    right: 0;
+}
+.ellipse-bot{
+    position: absolute;
+    z-index: -1;
+    bottom: -204px;
+    left: 0;
+}
+
+.user-description{
+    margin-top: 80%;
+    margin-left: 4%;
+    width: 92%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+

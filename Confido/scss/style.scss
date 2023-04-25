@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+.start{
+    display: flex;
+    flex-direction: column;
+    &-logo{
+        height: 250px;
+        width: 100%;
+        background-image: url("/img/elipse-confido.svg");
+        background-size: 325px;
+        background-repeat: no-repeat;
+        background-position: -150% 120%;
+        img{
+            margin-top: 10px;
+            margin-left: 10px;
+            height: 35px;
+            width: auto;
+        }
+    }
+    &-image{
+        height: 335px;
+        margin-top: -207px;
+        width: 100%;
+        background-image: url("/img/confido-image.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    &-text{
+        display: flex;
+        flex-direction: column;
+        height: 598px;
+        width: 100%;
+        z-index: 20;
+        margin-top: -140px;
+        background-image: url("/img/vector-start.svg");
+        background-size: cover;
+        h1{
+            color: white;
+            margin-top: 115px;
+            text-align: center;
+            font-size: 46px;
+            padding: 20px;
+        }
+        h2{
+            color: white;
+            margin-top: 125px;
+            text-align: center;
+            font-size: 32px;
+            padding: 20px;
+            animation: slide 1s ease 0s 1 normal forwards;
+        }
+        p{
+            padding: 20px;
+            color: white;
+            text-align: center;
+            font-size: 24px;
+        }
+        input{
+        background-color: #183742;
+        border-radius: 26px;
+        padding: 0 25px;
+        width: 75%;
+        height: 61px;
+        color: white;
+        font-size: 18px;
+        border: none;
+        margin: 15px auto ;
+        line-height: 50px;
+        animation: slide 1.2s ease 0s 1 normal forwards;
+        }
+        a{
+            color: black;
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 30px;
+            animation: slide 1.4s ease 0s 1 normal forwards;
+        }
+    }
+    &-looking{
+        background-color: #183742;
+        border-radius: 26px;
+        width: 90%;
+        height: 61px;
+        margin: auto;
+        color: white;
+        font-size: 24px;
+        border: none;
+        margin-bottom: -30px;
+    }
+    &-offering{
+        background-color: white;
+        border-radius: 26px;
+        width: 90%;
+        height: 61px;
+        margin: auto;
+        color: #183742;
+        font-size: 24px;
+        border: none;
+    }
+    &-login{
+        background-color: white;
+        border-radius: 26px;
+        width: 30%;
+        height: 61px;
+        margin: 30px auto 21px;
+        color: #183742;
+        font-size: 24px;
+        border: none;
+        animation: slide 1.3s ease 0s 1 normal forwards;
+    }
+    &-form{
+        text-align: center;
+    }
+    &-form p {
+        display: none;
+        color: red;
+        padding: 5px;
+    }
+}
+@keyframes slide {
+	0% {
+		opacity: 0;
+		transform: translateX(250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+.emp-guide{
+    height: 100vh;
+    width: 100vw;
+    &-hero{
+        height: 250px;
+        width: 100%;
+        background-image: url("/img/elipse-confido-green.svg");
+        background-size: 325px;
+        background-repeat: no-repeat;
+        background-position: -150% 120%;
+        display: flex;
+        align-items: flex-end;
+    }
+    &-hero img{
+        margin-left: auto;
+    }
+    &-text{
+    width: 90%;
+    height: 524px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    //animation: slide 1s ease 0s 1 normal forwards;
+    h1{
+        font-weight: bold;
+        font-size: 32px;
+        margin-top: 30px;
+    }
+    h2{
+        font-size: 32px;
+    }
+    h3{
+        font-size: 32px;
+    }
+    img{
+        margin-left: auto;
+        margin: -50 0;
+    }
+    }
+    &-slider{
+        display: flex;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+        &-line{
+            height: 5px;
+            width: 80px;
+            margin: 0 10px;
+            background-color: #2e5e6095;
+            display: inline-block;
+        }
+        #line1{
+        background-color: #2e5e60;
+        }
+    }
+    &-logo{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        height: 35px;
+        width: auto;
+    }
+}
+.bus-guide{
+    height: 100vh;
+    width: 100vw;
+    &-hero{
+        height: 250px;
+        width: 100%;
+        background-image: url("/img/elipse-confido-green.svg");
+        background-size: 325px;
+        background-repeat: no-repeat;
+        background-position: -150% 120%;
+        display: flex;
+        align-items: flex-end;
+    }
+    &-hero img{
+        margin-left: auto;
+    }
+    &-text{
+    width: 90%;
+    height: 524px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    //animation: slide 1s ease 0s 1 normal forwards;
+    h1{
+        font-weight: bold;
+        font-size: 32px;
+        margin-top: 30px;
+    }
+    h2{
+        font-size: 32px;
+    }
+    h3{
+        font-size: 32px;
+    }
+    img{
+        margin-left: auto;
+        margin: -50 0;
+    }
+    }
+    &-slider{
+        display: flex;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+        &-line{
+            height: 5px;
+            width: 80px;
+            margin: 0 10px;
+            background-color: #2e5e6095;
+            display: inline-block;
+        }
+        #line1{
+        background-color: #2e5e60;
+        }
+    }
+    &-logo{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        height: 35px;
+        width: auto;
+    }
+} 

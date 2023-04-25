@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 8vh;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+nav img{
+    width: 120px;
+    height: auto;
+    margin-left: 20%;
+}
+
+.menu-icon{
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+.hero-image{
+    position: absolute;
+    z-index: -3;
+    top: 60px;
+    left: 10px;
+    width: 80%;
+    height: auto;
+}
+
+.hero-image img{
+    width: 100%;
+}
+
+.blob{
+    position: absolute;
+    z-index: -2;
+    top: 200px;
+    width: 100%;
+    height: auto;
+}
+
+.blob img{
+    width: 100%;
+    height: auto;
+}
+
+.ellipse-up{
+    position: absolute;
+    z-index: -1;
+    top: 500px;
+}
+.ellipse-bot{
+    position: absolute;
+    z-index: -1;
+    top: 1100px;
+    right: 0;
+}
+
+.back-button{
+    text-decoration: none;
+    color: black;
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 40px;
+    left: 15px;
+    background-color: transparent;
+    border: none;
+}
+
+.company-description{
+    margin-top: 55%;
+    margin-left: 4%;
+    width: 92%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.company-logo{
+    margin-bottom: 6%;
+}
+
+.company-logo img{
+    height: 80px;
+    width: auto;
+}
+
+.job-checklist{
+    display: flex;
+    flex-direction: column;
+}
+
+.col-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.col-2 p{
+    font-size: 20px;
+    margin: 0 20px;
+}
+
+.intro-video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+video{
+    border-radius: 25px;
+}
+
+  .upOverlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-image: url(/img/sent.png);
+    background-color: #F8F9FB;
+    overflow: hidden;
+    width: 100vw;
+    height: 0;
+    transition: .5s ease;
+  }
+  .upOverlay2 {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-image: url(/img/rejected.png);
+    background-color: #e17e40;
+    overflow: hidden;
+    width: 100vw;
+    height: 0;
+    transition: .5s ease;
+  }
+
+      .dropbtn {
+    text-decoration: none;
+    color: black;
+    display: block;
+    background-color: transparent;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    background-color: #183742;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    right: 0;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+
+.dropdown-content img{
+    width: 20px;
+    height: 20px;
+    margin: 0;
+}
+
+.dropdown a:hover {
+    background-color: #183742;
+}
+
+.show {
+    display: flex;
+}

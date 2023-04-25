@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../scss/business-add-job.scss">
+    <script src="../scripts/listInput.js" defer></script>
+    <script type="module" src="/scripts/business/businessAddJob.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    
+    <section id="images">
+        <nav>
+            <img src="/img/Student/Final-Logo-White.png" alt="logo" class="logo">
+        </nav> 
+        <div class="uploadPicture">
+            <img src="../img/pic.jpg" alt="">
+            <p>Company Name</p>
+        </div>
+
+        <div id="logInInfo">
+            <form id="businessAddJob">
+                <div id="completeYourDetailsH2">
+                    <h2>Add a new job: </h2>
+                </div>
+                <input id="position" type="text" placeholder="Position" class="inputUserPage" required>
+                <textarea id="positionDescription" name="textDescription" rows="4" cols="50" placeholder="Describe the position" required></textarea>
+                <input id="requirements" type="text" placeholder="Job Requirments" class="inputUserPage__jobRequierments" required>
+                <div class="todoBlock" required>
+                    <!-- main title holder -->
+                    <div class="titleHolder">
+                      <h1>Daily checkpoints</h1>
+                      <div class="col">
+                        <button type="button" id="addBtn" class="btn-primary">+</button>
+                      </div>
+                    </div>
+                    <!-- todo list -->
+                    <div class="todoList">
+                      <!-- list holder -->
+                      <div class="listHolder">
+                        <ul id="checkpointList" class="list">
+                          
+                        </ul>
+                      </div>
+                      <!-- form holder -->
+                      <div class="formHolder">
+                        <div class="col big">
+                          <input type="text" id="addInput">
+                        </div>
+                        <div class="col">
+                          <button type="button" id="toggleBtn" class="btn-primary1"></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <button type="submit" class="addJobBtn">Add job</button>
+            </form>
+        
+    </section>
+
+</body>
+</html>

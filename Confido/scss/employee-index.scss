@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito';
+    overflow-x: hidden;
+}
+
+@media  (max-width: 480px){
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5em;
+
+
+    }
+    input::placeholder{
+        color: #adc9c7;
+        font-weight:700;
+        font-size: 0.9rem;
+        
+    }
+    .inputUserPage{
+        width: 85%;
+        background-color: #317773;
+        border-radius: 1.2em;
+        border: none;
+        padding: 1.1em 0.5em 1.1em 0.5em;
+        color: white;
+    }
+    button[type="submit"]{
+        padding: 1em 2.5em 1em 2.5em;
+        background-color: #193743;
+        color: white;
+        border:none;
+        border-radius: 1.3em;
+        font-weight: 600;
+        margin-top: 1.5em;
+    }
+    
+    .bx-cloud-upload{
+        font-size: 1.7em;
+        margin-left: 0.2em;
+        color: white;
+    }
+    input[type="file"] {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap; /* 1 */
+        clip-path: inset(50%);
+        border: 0;
+      }
+      .custom-file-upload {
+        display: flex;
+        align-items: center;
+        padding: 0.7em 1em 0.7em 1em;
+        background-color: #CDD9D9;
+        color: black;
+        border:none;
+        border-radius: 1.1em;
+        font-weight: bold;
+        font-size: 1rem;
+        z-index: 10000;
+      }
+      #pedal{
+        display:flex;
+        justify-content: center;
+      }
+      
+      .uploadPicture{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .uploadPicture img{
+        width: 150px;
+        height: auto;
+        border-radius: 12em;
+        margin-top: 2em;
+      }
+
+      .uploadPicture p{
+        color: white;
+        margin-top: 0.5em;
+      }
+    
+      nav{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        color: white;
+      }
+      #images{
+        width: 100%;
+    
+    
+        background-image: url(../img/Vector_test3.svg);
+        background-size: 475px;
+        background-position:top;
+        background-repeat: no-repeat;
+      }
+      #uploadCvContainer{
+        width: 85%;
+        display: flex;
+        justify-content: flex-start; 
+        
+      }
+      #logInInfo{
+        margin-top: 3.5em;
+      }
+
+      .error {
+        border: 2px solid rgb(255, 34, 71);
+      }
+        .logo{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        height: 35px;
+        width: auto;
+    }
+}
+    

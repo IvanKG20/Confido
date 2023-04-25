@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="scss/inbox_user.css">
+    <link rel="stylesheet" href="scss/inbox_company.css">
+    <link rel="stylesheet" href="dropdown.scss">
+    <script src="https://kit.fontawesome.com/2c5fee58f9.js" crossorigin="anonymous"></script>
+    <title>Inbox</title>
+</head>
+<body>
+
+    <div id="main-bar"> <!--Includes logo and menu button-->
+        <div class="__logo-container">
+            <h2 class="logo">Confido</h2>
+        </div>
+        <!--
+        <div class="__menu-button">
+            <object data="img/burger-checklist-list-menu-navigation-svgrepo-com.svg" width="30px" height="30px"></object>
+        </div>
+    -->
+    <div class="dropdown">
+    <button onclick="myFunction()" class="dropbtn"><i class="fa fa-bars"></i></button>
+    <div id="myDropdown" class="dropdown-content">
+      <a href="#"><img src="img/close-icon.png" alt=""></a>
+      <a href="#Search"><img src="img/search.png" alt=""></a>
+      <a href="candidates.html"><img src="img/home.png" alt=""></a>
+      <a href="inbox_company.html"><img src="img/chat.png" alt=""></a>
+      <a href="profile-page-bus-mine.html"><img src="img/account.png" alt=""></a>
+    </div>
+    </div> 
+
+    </div> 
+    <div id="top-bar"> <!--Includes back button Title and Add conversation-->
+        <div class="__back-button">
+            <object data="img/back-button-svgrepo-com.svg" width="30px" height="30px"></object>
+        </div>
+        <div class="__title-container">
+            <h2 class="title">Inbox</h2>
+        </div>
+        <div class="__add-button">
+            <object data="img/add-button-svgrepo-com.svg" width="30px" height="30px"></object>
+        </div>
+    </div> 
+    <div id="__inbox-boxes"> <!-- Includes Boxes with img, name and position-->
+        <!--Make with JS the boxes-->
+        <div class="__box">
+            <img class="__img" src="img/Placeholder.png">
+            <div class="__info">
+                <h3 class="__name">Will</h3>
+                <a class="button" href="">
+                    <div class="button-container">
+                        <p class="__view-profile">View Profile</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="__box">
+            <img class="__img" src="img/Placeholder.png">
+            <div class="__info">
+                <h3 class="__name">Mark</h3>
+                <a class="button" href="">
+                    <div class="button-container">
+                        <p class="__view-profile">View Profile</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="__box">
+            <img class="__img" src="img/Placeholder.png">
+            <div class="__info">
+                <h3 class="__name">Rick</h3>
+                <a class="button" href="">
+                    <div class="button-container">
+                        <p class="__view-profile">View Profile</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="./dropdown.js"></script>
+</body>
+</html>

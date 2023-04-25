@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../scss/business-details.scss">
+    <script type="module" src="/scripts/business/businessDetails.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <section id="images">
+        <nav>
+            <img src="/img/Student/Final-Logo-White.png" alt="logo" class="logo">
+        </nav>
+            <div class="uploadPicture">
+                <img src="../img/pic.jpg" alt="">
+                <p>Company Name</p>
+            </div>
+
+        <div id="logInInfo">
+            <form id="businessInformation">
+
+                <div class="h2Headers">
+                    <h2> Tell us about your company!</h2>
+                </div>
+                <textarea id="userDescription" name="textDescription" rows="4" cols="50" placeholder="Describe your company!" required></textarea>
+
+                
+                <div class="h2Headers">
+                    <h2>Add your presentation video</h2>
+                </div>
+                <div id="uploadCvContainer">
+                <label class="custom-file-upload">
+                    <input type="file" id="businessVideo" accept="video/mp4,video/x-m4v,video/*"/>
+                    <i class='bx bx-cloud-upload'></i> Upload CV 
+                </label>
+            </div>
+                
+                <input type="submit" value="Now add a job!" target="__userDetails.html">
+            </form>
+    
+        </div>
+    </section>
+
+
+</body>
+</html>

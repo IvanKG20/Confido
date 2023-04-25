@@ -1,0 +1,92 @@
+$base-color: #317773;
+$pink: #C397B8;
+*{
+    font-family: 'Nunito', sans-serif;
+}
+.bar{
+&-main-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+&-top-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1.5em 1em;
+}
+}
+//fake code update to css
+
+.inbox{
+&-__box{
+    display: flex;
+    border: 3px solid #317773;
+        border-radius: 25px;
+        padding: 0.5em;
+        flex-direction: row;
+        margin: 1em;
+}
+
+&-__img{
+    width: 5em;
+    height: 5em;
+}
+
+&-__info{
+    color: black;
+    margin: 0px 10px;
+}
+
+/*&-__logo-container img{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 35px;
+    width: auto;
+  }*/
+}
+.title{
+    margin: 0;
+}
+
+.button{
+    text-decoration: none;
+
+ &-container{
+    border: 2px solid #317773;
+    border-radius: 15px;
+
+ }
+
+ &-__view-profile{
+    text-decoration:none;
+    margin: 0.2em 1em;
+    color:black;
+ }
+}
+
+.alert{
+   &-alert-bar{
+    background: #C397B8;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 1em;
+    color: white;
+
+   }
+
+   &-icon{
+    height: 3em;
+    width: 3em;
+   }
+}
+
+.__logo-container img{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 35px;
+    width: auto;
+  }

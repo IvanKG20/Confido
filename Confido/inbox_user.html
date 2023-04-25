@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/scss/inbox_user.scss">
+    <link rel="stylesheet" href="dropdown.scss">
+        <script src="https://kit.fontawesome.com/2c5fee58f9.js" crossorigin="anonymous"></script>
+    <title>Inbox</title>
+</head>
+<body>
+
+    <div id="main-bar" class="bar-main-bar"> <!--Includes logo and menu button-->
+        <div class="__logo-container">
+            <img src="/img/Final-LogoV2-Black.png" alt="logo">
+        </div>
+        <div class="dropdown">
+    <button onclick="myFunction()" class="dropbtn"><i class="fa fa-bars"></i></button>
+    <div id="myDropdown" class="dropdown-content">
+      <a href="#"><img src="img/close-icon.png" alt=""></a>
+      <a href="#Search"><img src="img/search.png" alt=""></a>
+      <a href="home-page.html"><img src="img/home.png" alt=""></a>
+      <a href="inbox_user.html"><img src="img/chat.png" alt=""></a>
+      <a href="profile-page.html"><img src="img/account.png" alt=""></a>
+    </div>
+        </div>
+
+    </div> 
+    <div id="top-bar" class="bar-top-bar"> <!--Includes back button Title and Add conversation-->
+        <div class="__back-button">
+            <object data="img/back-button-svgrepo-com.svg" width="30px" height="30px"></object>
+        </div>
+        <div class="__title-container">
+            <h2 class="title">Inbox</h2>
+        </div>
+        <div class="__add-button">
+            <object data="img/add-button-svgrepo-com.svg" width="30px" height="30px"></object>
+        </div>
+    </div> 
+    <div id="alert-bar" class="alert-alert-bar"> <!--Includes back button Title and Add conversation-->
+        <div class="alert">
+            <object class="alert-icon" data="img/alert-circle-svgrepo-com.svg" width="30px" height="30px"></object>
+        </div>
+        <div class="alert-container">
+            <p class="alert-message">The recruiters are going to contact you if they need any extra information about you</p>
+        </div>
+    </div> 
+    <div id="inbox-__inbox-boxes"> <!-- Includes Boxes with img, name and position-->
+        <!--Make with JS the boxes-->
+        <div class="inbox-__box">
+            <img class="inbox-__img" src="img/Placeholder.png">
+            <div class="inbox-__info">
+                <h3 class="inbox-__name">Horizon Studio</h3>
+                <a class="button" href="">
+                    <div class="button-container">
+                        <a class="button-__view-profile" href="/chat.html">Chat</a>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="inbox-__box">
+            <img class="inbox-__img" src="img/Placeholder.png">
+            <div class="inbox-__info">
+                <h3 class="inbox-__name">LiveWall</h3>
+                <a class="button" href="">
+                    <div class="button-container">
+                        <p class="button-__view-profile">View Profile</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="inbox-__box">
+            <img class="inbox-__img" src="img/Placeholder.png">
+            <div class="inbox-__info">
+                <h3 class="inbox-__name">Google</h3>
+                <a class="button" href="">
+                    <div class="button-container">
+                        <p class="button-__view-profile">View Profile</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="dropdown.js"></script>
+</body>
+</html>

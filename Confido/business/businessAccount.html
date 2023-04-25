@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../scss/business-account.scss">
+    <script type="module" src="/scripts/business/businessAccount.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    
+    <section id="images">
+        <nav>
+            <img src="/img/Student/Final-Logo-White.png" alt="logo" class="logo">
+        </nav> 
+        <div id="pedal">
+            <label class="uploadPicture">
+                <input type="file" accept="image/avif, image/gif, image/jpeg, image/png, image/svg+xml, image/webp"/>
+                <img src="../img/pic.jpg" alt="">
+                <p>Upload your picture!</p>
+            </label>
+        </div>
+
+        <div id="logInInfo">
+            <form id="registerForm">
+                
+                <div id="completeYourDetailsH2">
+                    <h2>Complete your detials: </h2>
+                </div>
+                <input type="text" id="companyName" placeholder="Name of company" class="inputUserPage" required>
+                <input type="email" name="email" id="email" placeholder="Email Address" class="inputUserPage" required>
+                <input type="password" name="" id="password" placeholder="Password" class="inputUserPage" required>
+                <input type="password" name="" id="confirmPassword" placeholder="Confrim Password" class="inputUserPage" required>
+                <input type="text" id="companyURL" placeholder="Company Website URL" class="inputUserPage" required>
+                <span id="message"></span>
+                <input type="submit" value="Next!" target="__userDetails.html">
+            </form>
+  
+    </section>
+
+</body>
+</html>

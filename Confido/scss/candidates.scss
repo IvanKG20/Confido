@@ -1,0 +1,92 @@
+*{
+    font-family: 'Nunito', sans-serif;
+}
+body {
+  margin: 0;
+}
+
+.pink-candidates-background {
+  position: absolute;
+  padding: 0;
+  z-index: -1;
+}
+
+.candidates-img {
+  position: absolute;
+  left: 120px;
+}
+
+.top-section {
+  height: 160px;
+}
+
+.b-dropbtn {
+  background-color: #183742;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 25px;
+  margin-top: 30px;
+}
+
+.b-dropdown {
+  position: relative;
+  display: inline-block;
+  margin-left: 1em;
+}
+
+.b-dropdown-content {
+  display: none;
+  margin-top: 1px;
+  position: absolute;
+  background-color: #11252c;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 15px;
+}
+
+.b-dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.b-dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.b-dropdown:hover .b-dropdown-content {
+  display: block;
+}
+
+.b-dropdown:hover .b-dropbtn {
+  background-color: #11252c;
+}
+
+.__box {
+  background: #C397B8;
+  border: none;
+}
+
+.button-container {
+  background: white;
+  border: 2px solid white;
+}/*# sourceMappingURL=candidates.css.map */
+
+#__inbox-boxes{
+  margin-top: 50px;
+}
+
+#__inbox-boxes{
+  text-align: center;
+}
+.__logo-container img{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        height: 35px;
+        width: auto;
+}

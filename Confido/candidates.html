@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="scss/inbox_user.css">
+    <link rel="stylesheet" href="scss/candidates.scss">
+    <link rel="stylesheet" href="dropdown.scss">
+    <script src="https://kit.fontawesome.com/2c5fee58f9.js" crossorigin="anonymous"></script>
+    <script type="module" src="/candidates.js" defer></script>
+    <title>Inbox</title>
+</head>
+<body>
+    <div class="top-section">
+    <img class="pink-candidates-background" src="img/pink-backgroud-candidates.png">
+    <!--Includes logo and menu button-->
+    <div id="main-bar">
+        <div class="__logo-container">
+            <img src="/img/Final-LogoV2-Black.png" alt="logo">
+        </div>
+        <div class="__menu-button">
+        </div>
+        <img class="candidates-img" src="img/candidates-img.png" alt="">
+        <div class="dropdown">
+    <button onclick="myFunction()" class="dropbtn"><i class="fa fa-bars"></i></button>
+    <div id="myDropdown" class="dropdown-content">
+      <a href="#"><img src="img/close-icon.png" alt=""></a>
+      <a href="#Search"><img src="img/search.png" alt=""></a>
+      <a href="candidates.html"><img src="img/home.png" alt=""></a>
+      <a href="inbox_company.html"><img src="img/chat.png" alt=""></a>
+      <a href="profile-page-bus-mine.html"><img src="img/account.png" alt=""></a>
+    </div>
+    </div> 
+    </div>
+    <!--Includes back button Title and Add conversation-->
+    <div id="top-bar">
+        <div class="__back-button">
+            <object data="img/back-button-svgrepo-com.svg" width="30px" height="30px"></object>
+        </div>
+        <div class="__title-container">
+        </div>
+        <div class="__add-button">
+            <object data="" width="30px" height="30px"></object>
+        </div>
+    </div> 
+    <div class="b-dropdown">
+        <button class="b-dropbtn">See all positions</button>
+        <div class="b-dropdown-content">
+          <a href="#">Student Designer</a>
+          <a href="#">Student Developer</a>
+          <a href="#">Marketing Intern</a>
+        </div>
+      </div>
+    <!-- Includes Boxes with img, name and position-->
+    <div id="__inbox-boxes"> 
+        <!-- Make with JS the boxes -->
+        <h2 class="title">Candidates</h2>
+
+        <!-- User List will be rendered here -->
+        <div id="user-list"></div>
+    </div>
+    <script src="./dropdown.js"></script>
+</body>
+</html>

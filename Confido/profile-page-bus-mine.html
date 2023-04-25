@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Confido</title>
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="profile-page.scss">
+    <link rel="stylesheet" href="general.scss">
+
+    <script src="https://kit.fontawesome.com/2c5fee58f9.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <script type="module" src="/profile-page-bus.js" defer></script>
+
+</head>
+<body>
+    <nav>
+        <div class="logo"><img src="/img/Student/Final-Logo-Black.png" alt=""></div>
+            <div class="dropdown">
+    <button onclick="myFunction()" class="dropbtn"><i class="fa fa-bars"></i></button>
+    <div id="myDropdown" class="dropdown-content">
+      <a href="#"><img src="img/close-icon.png" alt=""></a>
+      <a href="#Search"><img src="img/search.png" alt=""></a>
+      <a href="candidates.html"><img src="img/home.png" alt=""></a>
+      <a href="inbox_company.html"><img src="img/chat.png" alt=""></a>
+      <a href="profile-page-bus-mine.html"><img src="img/account.png" alt=""></a>
+    </div>
+    </nav>
+
+    <button class="back-button" onclick="history.back()" ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+        <path d="M360 224L272 224v-56c0-9.531-5.656-18.16-14.38-22C248.9 142.2 238.7 143.9 231.7 
+        150.4l-96 88.75C130.8 243.7 128 250.1 128 256.8c.3125 7.781 2.875 13.25 7.844 17.75l96 87.25c7.031 
+        6.406 17.19 8.031 25.88 4.188s14.28-12.44 14.28-21.94l-.002-56L360 288C373.3 288 384 277.3 384 264v-16C384 
+        234.8 373.3 224 360 224zM256 0C114.6 0 0 114.6 0 256s114.6 256 256 256s256-114.6 256-256S397.4 0 256 0zM256 
+        464c-114.7 0-208-93.31-208-208S141.3 48 256 48s208 93.31 208 208S370.7 464 256 464z"/></svg>
+    </button>
+
+    <main>
+
+        <div class="profile-image"><img src="/img/Student/logo.png" alt="" id="company-image"></div>
+        <img class="blob" src="/img/Company/Blob-Cyan.png" alt="">
+
+        <div class="blob-ellipse-up"><img src="/img/Company/Ellipse-Up.png" alt=""></div>
+        
+        <!--   <div class="ellipse-bot"><img src="/img/Company/Ellipse-Bot.png" alt=""></div>   /!-->
+
+        <div class="profile-description">
+
+            <a href="#" id="buttondType1">Edit Profile</a>
+
+            <div class="profile-box">
+                <h4>Name:</h3>
+                <p id="UserName">Live Wall</p>
+            </div>
+
+            <div class="profile-box">
+                <h4>Email:</h3>
+                <p id="Email">livewall@gmail.com</p>
+            </div>
+
+            <div class="profile-box">
+                <h4>Position:</h4>
+                <p id="Position">Recruiter</p>
+            </div>
+
+            <div class="profile-box">
+                <h4>Location</h3>
+                <p id="Location">Tilburg</p>
+            </div>
+
+            <div class="profile-box">
+                <h4>Description:</h4>
+                <p id="Description">LiveWall is a creative media agency that provides students and recent graduates with the opportunity 
+                to work at a creative, digital agency.</p>
+            </div>
+
+        </div>
+    </main>
+    <script src="dropdown.js"></script>
+</body>
+</html>
